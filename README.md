@@ -136,7 +136,7 @@ SLA transactions' deadlines as *2\*T* (An extra explanation of Section 4.3)?**
 >higher throughput and the transaction prioritizing mechanism, SLARM has the
 >shortest recovery time.
 
-**4 Why did we limit each blockchain node's available bandwidth?**
+**3 Why did we limit each blockchain node's available bandwidth?**
 
 > We limited the available bandwidth of each node for two reasons. First, in a
 > Internet-wide blockchain system, nodes are deployed across several ISPs. The
@@ -151,7 +151,7 @@ SLA transactions' deadlines as *2\*T* (An extra explanation of Section 4.3)?**
 > multicast protocols can achieve more stable throughputs under transaction
 > spikes. However, their SLA satisfaction rates are still low. 
 
-**5 Can existing transaction multicast protocols achieve higher SLA satisfaction
+**4 Can existing transaction multicast protocols achieve higher SLA satisfaction
 rates and throughputs with large network bandwidth?**
 
 <p align="middle">
